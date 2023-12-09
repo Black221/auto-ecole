@@ -13,7 +13,7 @@ const StartTest = () => {
     const responses = useRef<string[]>([]); // ["A", "B", "C", "D"]
     const [currentResponse, setCurrentResponse] = useState<string>(""); // ["A", "B", "C", "D"]
     
-    const [correctAnswer, setCorrectAnswer] = useState<string[]>([]);
+    // const [correctAnswer, setCorrectAnswer] = useState<string[]>([]);
 
     function convertTimer (timer: number): string {
         let minutes = Math.floor(timer / 60).toString();
