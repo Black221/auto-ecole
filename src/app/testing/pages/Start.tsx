@@ -99,7 +99,7 @@ const StartTest = () => {
                         <p id="timer">{convertTimer(timer)}</p>
                     </div>
                     <div className="w-full h-[400px] bg-red-200">
-                        <img id="question-img" className="w-full h-full" src={`../Mini-projet JS/tests/B01/B1-${question}.jpg`} alt={`./Mini-projet JS/tests/B01/B1-${question}.jpg`} />
+                        <img id="question-img" className="w-full h-full" src={`../questions/B01/B1-${question}.jpg`} alt={`./Mini-projet JS/tests/B01/B1-${question}.jpg`} />
                     </div>
                     {start ? ( !over ? <div>
                         <div className="flex items-center justify-center">
